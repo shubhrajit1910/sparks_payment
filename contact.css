@@ -1,0 +1,84 @@
+body{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    width: 100%;
+    height:100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("photo/b15.jpg");
+    background-size:cover;
+    background-attachment: fixed;
+    background-position:center ;
+
+}
+
+nav{
+    width:100%;
+    height: 110px;
+    background-color: rgba(68, 67, 67, 0.911);
+    margin-top: 0%;
+    font-family: sans-serif;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+img{
+    width: 120px;
+    height:80px;
+    border-radius: 8px;
+}
+
+.name{
+    color: rgb(7, 242, 250);
+    font-size: xx-large;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+
+
+.na a{
+    text-decoration: none;
+    color:rgb(192, 188, 189);
+    font-size: larger;
+    font-family: sans-serif;
+    padding: 0 20px;
+    margin: 10px;
+}
+
+.na a:hover{
+    color:rgb(0, 0, 0);
+    background-color: coral;
+    height: 50px;
+    width:50px;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 8px;
+
+}
+
+
+.icons{
+    
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    font-size: 400%;
+    padding: 20px 50px;
+    margin: 70px 5px;
+    top: 35%;
+    left: 35%;  
+    
+ }
+ i{
+     color:aliceblue;
+     border-radius: 5px;
+     
+ }
+
+ i:hover{
+     font-size: 60%;
+     background-color: black;
+ }
+ 
